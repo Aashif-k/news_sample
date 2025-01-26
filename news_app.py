@@ -15,7 +15,7 @@ opacity: 1.0;
 head_css="""
 <style>
 [data-testid="stHeader"]{
-background-image: url("https://as1.ftcdn.net/v2/jpg/00/49/27/92/1000_F_49279288_DsqsT4qky8BvyOvFicGHnDSlS1xBs83w.jpg");
+background-image: url("https://img.freepik.com/free-photo/newspaper-background-concept_23-2149501639.jpg?t=st=1737541856~exp=1737545456~hmac=1920514c5558ac13db21c9fd536ac3dd59bfecd149946cd1c62233789e01b2ee&w=996");
 opacity: 1.0;
 }
 </style>
