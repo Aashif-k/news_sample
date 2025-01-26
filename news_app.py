@@ -74,7 +74,6 @@ def main():
     st.markdown(out_cs,unsafe_allow_html=True)
     st.markdown(page_pg_img,unsafe_allow_html=True)
     st.markdown(headind_css,unsafe_allow_html=True)
-    st.markdown(main_block,unsafe_allow_html=True)
     st.markdown(
         """
         <style>
