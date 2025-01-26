@@ -31,8 +31,8 @@ out_cs="""
 <style>
 [data-testid="stAlert"]{
 background-color: #A94A4A;
-color: #FFF6DA;
-opacity: 1.0;
+color: #FFFFFF;
+opacity: 0.7;
 }
 </style>
 """
@@ -56,7 +56,7 @@ background-size: auto auto;
 }
 """
 def main():
-    st.title("News Detection")
+    st.title("NEWS DETECTION")
     with open('random_forest_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
 
