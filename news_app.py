@@ -5,7 +5,7 @@ import pickle
 import time
 text_css="""
 <style>
-[data-testid="stTextArea"]{
+[data-testid="stTextAreaRootElement"]{
 opacity: 0.2;
 }
 </style>
