@@ -7,6 +7,7 @@ headind_css="""
 <style>
 [data-testid="stHeading"]{
 color: #000000;
+aling:medile:
 opacity: 1.0;
 }
 """
@@ -38,8 +39,7 @@ background-size: auto auto;
 }
 """
 def main():
-    l,m,r = st.columns(3)
-    m.title("News_Detection")
+    st.title("News_Detection")
     with open('random_forest_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
 
