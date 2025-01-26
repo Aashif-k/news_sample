@@ -6,6 +6,7 @@ import time
 text_css="""
 <style>
 [data-testid="stTextAreaRootElement"]{
+color: #FFFFFF;
 opacity: 0.2;
 }
 </style>
