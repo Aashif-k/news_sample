@@ -3,6 +3,15 @@
 import streamlit as st
 import pickle
 import time
+out_cs="""
+<style>
+[data-testid="stAlert"]{
+background-color: #A94A4A;
+color: #FFF6DA;
+opacity: 1.0;
+}
+</style>
+"""
 page_pg_img="""
 <style>
 [data-testid="stAppViewContainer"]{
@@ -44,6 +53,7 @@ def main():
             st.error("This news is Fake.")
     else:
         st.warning("Please enter some text.")
+    st.markdown(out_cs,unsafe_allow_html=True)
     st.markdown(page_pg_img,unsafe_allow_html=True)
     st.markdown(
         """
