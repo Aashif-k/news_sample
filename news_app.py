@@ -32,7 +32,7 @@ background-size: auto auto;
 """
 def main():
     l,m,r = st.columns(3)
-    m.title(":red[News Detection]")
+    m.title(":Black[News Detection]")
     with open('random_forest_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
 
