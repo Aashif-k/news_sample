@@ -62,6 +62,7 @@ def main():
             st.error("This news is Fake.")
     else:
         st.warning("Please enter some text.")
+    st.markdown(head_css,unsafe_allow_html=True)
     st.markdown(out_cs,unsafe_allow_html=True)
     st.markdown(page_pg_img,unsafe_allow_html=True)
     st.markdown(
