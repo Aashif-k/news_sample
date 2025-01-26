@@ -3,12 +3,6 @@
 import streamlit as st
 import pickle
 import time
-main_block="""
-<style>
-[data-testid="stMainBlockContainer"]{
-opacity: 1.0;
-}
-"""
 headind_css="""
 <style>
 [data-testid="stHeading"]{
@@ -39,7 +33,7 @@ page_pg_img="""
 [data-testid="stAppViewContainer"]{
 position: Relative;
 background-image: url("https://img.freepik.com/free-photo/newspaper-background-concept_23-2149501639.jpg?t=st=1737541856~exp=1737545456~hmac=1920514c5558ac13db21c9fd536ac3dd59bfecd149946cd1c62233789e01b2ee&w=996");
-opacity: 0.4;
+opacity: 1.0;
 width: 100%;
 height: 100%;
 background-size: auto auto;
