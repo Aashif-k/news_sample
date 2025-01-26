@@ -30,7 +30,7 @@ opacity: 1.0;
 """
 page_pg_img="""
 <style>
-[data-testid="stAppViewContainer"]{
+[data-testid="stMainBlockContainer"]{
 position: Relative;
 background-image: url("https://img.freepik.com/free-photo/newspaper-background-concept_23-2149501639.jpg?t=st=1737541856~exp=1737545456~hmac=1920514c5558ac13db21c9fd536ac3dd59bfecd149946cd1c62233789e01b2ee&w=996");
 opacity: 0.4;
