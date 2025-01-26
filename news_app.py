@@ -23,8 +23,8 @@ def main():
 
     # User input
     user_input = st.text_area("Enter news text to analyze:")
-
-    if st.button("Analyze"):
+    l,ll,lm,m,rm,lr,r = st.columns(7)
+    if m.button("Analyze"):
         progress_text = "Operation in progress. Please wait."
         my_bar = st.progress(0, text=progress_text)
         for percent_complete in range(100):
