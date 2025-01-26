@@ -32,7 +32,7 @@ page_pg_img="""
 <style>
 [data-testid="stAppViewContainer"]{
 position: Relative;
-background-image: url("https://img.freepik.com/free-photo/newspaper-background-concept_23-2149501639.jpg?t=st=1737541856~exp=1737545456~hmac=1920514c5558ac13db21c9fd536ac3dd59bfecd149946cd1c62233789e01b2ee&w=996");
+background-image: url("https://img.freepik.com/free-vector/gradient-style-network-connection-background_23-2148879891.jpg?t=st=1737916374~exp=1737919974~hmac=0bd2b52ba02304ba23d8fa7ab67af446378945996dbc13451f4c6a8d89869bde&w=996");
 opacity: 1.0;
 width: 100%;
 height: 100%;
