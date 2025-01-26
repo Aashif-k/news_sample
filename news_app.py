@@ -3,7 +3,16 @@
 import streamlit as st
 import pickle
 import time
-
+page_pg_img="""
+<style>
+[data-testid="stAppViewContainer"]{
+position: Relative;
+background-image: url("https://img.freepik.com/free-photo/newspaper-background-concept_23-2149501639.jpg?t=st=1737541856~exp=1737545456~hmac=1920514c5558ac13db21c9fd536ac3dd59bfecd149946cd1c62233789e01b2ee&w=996");
+width: 100%;
+height: 100%;
+background-size: auto auto;
+}
+"""
 def main():
     st.title("News Detection")
     with open('random_forest_model.pkl', 'rb') as model_file:
@@ -35,6 +44,7 @@ def main():
             st.error("This news is Fake.")
     else:
         st.warning("Please enter some text.")
+    st.markdown(page_pg_img,unsafe_allow_html=True)
     st.markdown(
         """
         <style>
