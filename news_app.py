@@ -7,7 +7,7 @@ headind_css="""
 <style>
 [data-testid="stHeading"]{
 color: #000000;
-aling:medile:
+text-align: middle;
 opacity: 1.0;
 }
 """
