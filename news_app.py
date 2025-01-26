@@ -3,6 +3,14 @@
 import streamlit as st
 import pickle
 import time
+top_css="""
+<style>
+[data-testid="stDecoration"]{
+background-image: url("https://unsplash.com/photos/FNFBN4-GdlQ/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MjB8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTczNzgzOTk0MXww&force=true&w=2400");
+opacity: 1.0;
+}
+</style>
+"""
 headind_css="""
 <style>
 [data-testid="stHeading"]{
@@ -74,6 +82,7 @@ def main():
     st.markdown(out_cs,unsafe_allow_html=True)
     st.markdown(page_pg_img,unsafe_allow_html=True)
     st.markdown(headind_css,unsafe_allow_html=True)
+    st.markdown(top_css,unsafe_allow_html=True)
     st.markdown(
         """
         <style>
