@@ -92,7 +92,7 @@ def main():
     st.markdown(page_pg_img,unsafe_allow_html=True)
     st.markdown(headind_css,unsafe_allow_html=True)
     st.markdown(top_css,unsafe_allow_html=True)
-    st.markdown(text_css,unssafe_allow_html=True)
+    st.markdown(text_css,unsafe_allow_html=True)
     st.markdown(
         """
         <style>
