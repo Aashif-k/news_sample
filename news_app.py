@@ -6,7 +6,7 @@ import time
 headind_css="""
 <style>
 [data-testid="stHeading"]{
-color: #FFF6DA;
+color: #000000;
 opacity: 1.0;
 }
 """
