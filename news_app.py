@@ -8,7 +8,7 @@ text_css="""
 [data-testid="stTextAreaRootElement"]{
 background-color: #000000;
 color:#FFFFFF
-opacity: 0.5;
+opacity: 0.2;
 }
 </style>
 """
