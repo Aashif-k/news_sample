@@ -12,6 +12,14 @@ opacity: 1.0;
 }
 </style>
 """
+head_css="""
+<style>
+[data-testid="stHeader"]{
+background-image: url("https://as1.ftcdn.net/v2/jpg/00/49/27/92/1000_F_49279288_DsqsT4qky8BvyOvFicGHnDSlS1xBs83w.jpg");
+opacity: 1.0;
+}
+</style>
+"""
 page_pg_img="""
 <style>
 [data-testid="stAppViewContainer"]{
