@@ -32,7 +32,7 @@ page_pg_img="""
 <style>
 [data-testid="stAppViewContainer"]{
 position: Relative;
-background-image: url("https://img.freepik.com/free-vector/gradient-style-network-connection-background_23-2148879891.jpg?t=st=1737916374~exp=1737919974~hmac=0bd2b52ba02304ba23d8fa7ab67af446378945996dbc13451f4c6a8d89869bde&w=996");
+background-image: url("https://unsplash.com/photos/FNFBN4-GdlQ/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MjB8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTczNzgzOTk0MXww&force=true&w=2400");
 opacity: 1.0;
 width: 100%;
 height: 100%;
