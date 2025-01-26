@@ -3,6 +3,12 @@
 import streamlit as st
 import pickle
 import time
+main_block="""
+<style>
+[data-testid="stMainBlockContainer"]{
+opacity: 1.0;
+}
+"""
 headind_css="""
 <style>
 [data-testid="stHeading"]{
@@ -74,6 +80,7 @@ def main():
     st.markdown(out_cs,unsafe_allow_html=True)
     st.markdown(page_pg_img,unsafe_allow_html=True)
     st.markdown(headind_css,unsafe_allow_html=True)
+    st.markdown(main_block,unsafe_allow_html=True)
     st.markdown(
         """
         <style>
