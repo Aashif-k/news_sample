@@ -39,7 +39,7 @@ background-size: auto auto;
 }
 """
 def main():
-    st.title("News_Detection")
+    st.title("News Detection")
     with open('random_forest_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
 
