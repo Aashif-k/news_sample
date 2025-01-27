@@ -65,7 +65,7 @@ def main():
         vectorizer = pickle.load(vectorizer_file)
 
     # User input
-    st.chat_input("enter the news to analyze",on_submit=message)
+    message=st.chat_input("enter the news to analyze",on_submit=message)
     l,ll,lm,m,rm,lr,r = st.columns(7)
     if m.button("Analyze"):
         progress_text = "Operation in progress. Please wait."
