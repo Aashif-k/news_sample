@@ -56,7 +56,6 @@ background-size: auto auto;
 }
 """
 def main():
-    message=""
     st.title("NEWS DETECTION")
     with open('random_forest_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
@@ -65,7 +64,7 @@ def main():
         vectorizer = pickle.load(vectorizer_file)
 
     # User input
-    message=st.chat_input("enter the news to analyze",on_submit=message)
+    st.chat_input("enter the news to analyze",key=user_input)
     l,ll,lm,m,rm,lr,r = st.columns(7)
     if m.button("Analyze"):
         progress_text = "Operation in progress. Please wait."
