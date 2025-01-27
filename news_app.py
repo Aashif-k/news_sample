@@ -56,6 +56,7 @@ background-size: auto auto;
 }
 """
 def main():
+    user_input=""
     st.title("NEWS DETECTION")
     with open('random_forest_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
