@@ -64,7 +64,7 @@ def main():
         vectorizer = pickle.load(vectorizer_file)
 
     # User input
-    st.chat_input("enter the news to analyze",key=user_input)
+    user_input=st.text_input(" ",placeholder="enter the news to analyze")
     l,ll,lm,m,rm,lr,r = st.columns(7)
     if m.button("Analyze"):
         progress_text = "Operation in progress. Please wait."
@@ -72,8 +72,7 @@ def main():
         for percent_complete in range(100):
                 my_bar.progress(percent_complete + 1, text=progress_text)
                 time.sleep(0.1)
-                my_bar.empty()
-    user_input=message   
+                my_bar.empty()   
     if user_input.strip():
     # Transform user input
         input_vectorized = vectorizer.transform([user_input])
